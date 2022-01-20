@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Paycash\Pay\Api\Paycash_testManagementInterface" type="Paycash\Pay\Model\Paycash_testManagement"/>
+	<preference for="Paycash\Pay\Api\Paycash_prodManagementInterface" type="Paycash\Pay\Model\Paycash_prodManagement"/>
+</config>
